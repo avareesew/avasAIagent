@@ -13,7 +13,7 @@
 | Phase | Name                           | Status         |
 | ----- | ------------------------------ | -------------- |
 | 1     | Project Setup & Infrastructure | ✅ Done        |
-| 2     | Tool Implementation            | 🔲 Not Started |
+| 2     | Tool Implementation            | ✅ Done        |
 | 3     | Agent Loop & Memory            | 🔲 Not Started |
 | 4     | RAG Pipeline                   | 🔲 Not Started |
 | 5     | Web UI                         | 🔲 Not Started |
