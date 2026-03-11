@@ -14,11 +14,11 @@ A chatbot agent with:
 
 | Feature | Requirement | Status |
 |---------|-------------|--------|
-| Calculator tool | Evaluates math expressions | 🔲 |
-| Web search tool | Searches the web using Tavily | 🔲 |
-| RAG tool | Vector search over ≥5 real documents, with source attribution | 🔲 |
-| Conversation memory | Multi-turn context (follow-up questions work) | 🔲 |
-| Web UI | A chat web page (terminal fallback acceptable but not the target) | 🔲 |
+| Calculator tool | Evaluates math expressions | ✅ |
+| Web search tool | Searches the web using Tavily | ✅ |
+| RAG tool | Vector search over ≥5 real documents, with source attribution | ✅ |
+| Conversation memory | Multi-turn context (follow-up questions work) | ✅ |
+| Web UI | A chat web page (terminal fallback acceptable but not the target) | ✅ |
 | Streaming | Recommended but not required | 🔲 |
 
 ---
@@ -29,13 +29,13 @@ A chatbot agent with:
 
 | Requirement | Details | Status |
 |-------------|---------|--------|
-| `context.md` | Orients AI tools to your project | 🔲 |
-| PRD | What the agent does, its tools, the problem it solves | 🔲 |
-| Roadmap | Phased plan with progress tracked | 🔲 |
-| `.gitignore` | No secrets, no node_modules, etc. | 🔲 |
-| Structured logging | Logging that shows tool calls, arguments, and results | 🔲 |
-| Incremental git history | 5+ meaningful commits showing progression (setup → tools → agent → UI → RAG → polish), not one dump | 🔲 |
-| `README.md` | What it does, how to run it | 🔲 |
+| `context.md` | Orients AI tools to your project | ✅ |
+| PRD | What the agent does, its tools, the problem it solves | ✅ |
+| Roadmap | Phased plan with progress tracked | ✅ |
+| `.gitignore` | No secrets, no node_modules, etc. | ✅ |
+| Structured logging | Logging that shows tool calls, arguments, and results | ✅ |
+| Incremental git history | 5+ meaningful commits showing progression (setup → tools → agent → UI → RAG → polish), not one dump | ✅ |
+| `README.md` | What it does, how to run it | ✅ |
 
 ---
 
@@ -43,9 +43,9 @@ A chatbot agent with:
 
 | Deliverable | Status |
 |-------------|--------|
-| GitHub repo with proper infrastructure and incremental history | 🔲 |
-| Working agent — three tools + memory + web UI | 🔲 |
-| `README.md` | 🔲 |
+| GitHub repo with proper infrastructure and incremental history | ✅ |
+| Working agent — three tools + memory + web UI | ✅ |
+| `README.md` | ✅ |
 | 2-minute demo video — unedited screen capture showing web UI with a couple of tools/features | 🔲 |
 
 **Submit:** GitHub repo link + demo video
@@ -92,16 +92,14 @@ Each commit should represent a meaningful, isolated phase of work — not a bulk
 
 ## Pre-Submission Audit
 
-Run through this checklist before submitting:
-
-- [ ] All 3 tools work through the web UI
-- [ ] Follow-up questions maintain context across ≥3 turns
-- [ ] RAG responses include source document name in every answer
-- [ ] Structured logs show tool name, input args, and result for every tool call
-- [ ] `.env` is NOT committed (check `git log` to be sure)
-- [ ] `node_modules/` is NOT committed
-- [ ] ≥5 commits with meaningful messages showing progression
-- [ ] `README.md` includes setup instructions and describes all tools
-- [ ] `context.md`, PRD, and roadmap are in the repo
+- [x] All 3 tools work through the web UI
+- [x] Follow-up questions maintain context across ≥3 turns
+- [x] RAG responses include source document name in every answer
+- [x] Structured logs show tool name, input args, and result for every tool call
+- [x] `.env` is NOT committed (check `git log` to be sure)
+- [x] `node_modules/` is NOT committed
+- [x] ≥5 commits with meaningful messages showing progression
+- [x] `README.md` includes setup instructions and describes all tools
+- [x] `context.md`, PRD, and roadmap are in the repo
 - [ ] Demo video is 2 minutes, shows web UI, demonstrates ≥2 tools
-- [ ] GitHub repo link is accessible (not private, or grader has access)
+- [x] GitHub repo link is accessible (not private, or grader has access)

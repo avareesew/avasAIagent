@@ -36,7 +36,7 @@ Conversations are stateful — follow-up questions work naturally without repeat
 ### Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/avasAIagent.git
+git clone https://github.com/avareesew/avasAIagent.git
 cd avasAIagent
 npm install
 ```

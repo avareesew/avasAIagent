@@ -17,7 +17,7 @@
 | 3     | Agent Loop & Memory            | ✅ Done        |
 | 4     | RAG Pipeline                   | ✅ Done        |
 | 5     | Web UI                         | ✅ Done        |
-| 6     | Polish & Submission            | 🔲 Not Started |
+| 6     | Polish & Submission            | ✅ Done        |
 
 
 > Update status to ✅ Done / 🔄 In Progress / 🔲 Not Started as work progresses.
