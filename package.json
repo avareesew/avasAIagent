@@ -1,0 +1,19 @@
+{
+  "name": "avas-ai-agent",
+  "version": "1.0.0",
+  "description": "Travel & Budget Planner AI Agent — LangChain.js multi-tool ReAct agent",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "agent": "node index.js"
+  },
+  "dependencies": {
+    "@langchain/anthropic": "^0.3.0",
+    "@langchain/community": "^0.3.0",
+    "dotenv": "^16.0.0",
+    "langchain": "^0.3.0",
+    "winston": "^3.11.0"
+  }
+}
