@@ -20,7 +20,7 @@ This is an **individual academic project** with a hard rubric. Code quality, rep
 | Layer           | Technology                                                                |
 | --------------- | ------------------------------------------------------------------------- |
 | Agent framework | LangChain.js                                                              |
-| LLM             | Anthropic Claude Haiku 3.5 (via `@langchain/anthropic`)                   |
+| LLM             | Anthropic Claude Haiku 4.5 (`claude-haiku-4-5-20251001`, via `@langchain/anthropic`) |
 | Web search      | Tavily (`@langchain/community`)                                           |
 | Math evaluation | mathjs                                                                    |
 | Vector store    | MemoryVectorStore (or HNSWLib for persistence)                            |

@@ -10,10 +10,11 @@
     "agent": "node index.js"
   },
   "dependencies": {
-    "@langchain/anthropic": "^0.3.0",
-    "@langchain/community": "^0.3.0",
+    "@langchain/anthropic": "0.3.34",
+    "@langchain/community": "0.3.59",
+    "@langchain/core": "0.3.80",
     "dotenv": "^16.0.0",
-    "langchain": "^0.3.0",
+    "langchain": "0.3.37",
     "mathjs": "^13.0.0",
     "winston": "^3.11.0"
   }
