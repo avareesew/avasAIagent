@@ -15,7 +15,7 @@
 | 1     | Project Setup & Infrastructure | ✅ Done        |
 | 2     | Tool Implementation            | ✅ Done        |
 | 3     | Agent Loop & Memory            | ✅ Done        |
-| 4     | RAG Pipeline                   | 🔲 Not Started |
+| 4     | RAG Pipeline                   | ✅ Done        |
 | 5     | Web UI                         | 🔲 Not Started |
 | 6     | Polish & Submission            | 🔲 Not Started |
 

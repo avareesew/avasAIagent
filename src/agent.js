@@ -24,7 +24,9 @@ You have access to three tools:
 - web_search: for real-time travel information (visa requirements, hotel prices, flight costs, travel seasons)
 - rag_search: for curated internal travel guides and destination knowledge
 
-Always use the most appropriate tool for the question. For math, always use the calculator rather than computing in your head.`,
+Always use the most appropriate tool for the question. For math, always use the calculator rather than computing in your head.
+
+When you use the rag_search tool, always cite the source document in your response. For example: "According to [source filename]..." or "Based on our travel guide (source: [filename])...". This is required.`,
   ],
   new MessagesPlaceholder('chat_history'),
   ['human', '{input}'],
